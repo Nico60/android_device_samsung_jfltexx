@@ -31,3 +31,11 @@ TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505
 
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_eur_defconfig
+
+# Spiritify
+TARGET_GCC_VERSION_AND := 4.8
+TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_USE_O3 := true
+STRICT_ALIASING := true
+SUPPRES_UNUSED_WARNING := true
+OPT_MEMORY := true
